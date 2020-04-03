@@ -1,0 +1,362 @@
+﻿
+
+.night {
+    margin: 0px;
+    background-color:#000000;
+    min-height: 100vh;
+}
+
+div {
+   border-color: inherit; 
+}
+
+span {
+    border-color: inherit; 
+ }
+
+.webpad-orange
+{ 
+    background: #ff5e00;
+    color: #000000;
+}
+
+.webpad-blue-print
+{ 
+    background: #1a65b7;
+    color: #ffffff;
+}
+
+.webpad-purple
+{ 
+    background: #6a1b9a;
+    color: #ffffff;
+}
+
+.webpad-green
+{ 
+    background: #19bd11;
+    color: #000000;
+}
+
+.webpad-yellow
+{ 
+    background: #f8df00;
+    color: #000000;
+}
+
+.webpad-node 
+{
+    border-radius: 3mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1em;
+    word-break: break-word;
+}
+
+.webpad-break-words-node
+{
+    font-size: 1em;
+    word-break: break-word;
+}
+
+.webpad-card
+{
+    border-color: inherit;
+    border-width: 2mm;
+    /* border-style: dashed; */
+    border-style: none;
+    padding-bottom: 1em;
+    transition: left 0.3s, top 0.3s;
+}
+
+.webpad-inline
+{
+    display: inline;
+}
+
+.webpad-inline-flex
+{
+    display: inline-flex;
+}
+
+button
+{
+    background: inherit;
+    color: inherit;
+}
+input
+{
+    background:inherit;
+    color: inherit;
+}
+
+
+a 
+{
+    color: inherit;
+    background: inherit;
+    text-decoration: underline;
+}
+.disable-selection {
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+.webpad-left
+{
+    margin-left: 7mm;
+}
+.webpad-left-2x
+{
+    margin-left: 14mm;
+}
+
+.webpad-right
+{
+    margin-right: 7mm;
+}
+.webpad-right-2x
+{
+    margin-right: 14mm;
+}
+
+.webpad-working-area
+{
+    border-color: #1a65b7;
+    /* overflow-y: scroll; */
+    /* height: 90vh; */
+}
+
+.webpad-search-result-area
+{
+    border-color: aliceblue;
+    /* overflow-y: scroll; */
+    /* height: 90vh; */
+}
+
+.webpad-edit-pencil
+{
+    width: 1em;
+    height: 1em;
+    /* margin-left: 0.2em; */
+    /* margin-right: 0.2em; */
+    pointer-events: none;
+}
+
+.webpad-button-no-border
+{
+    border-style: none;
+    display: inline-block;
+}
+
+.webpad-search-bar
+{
+    width: 100%;
+    min-width: 150px;
+    color: #64e05e;
+    border-radius: .3em;
+    border-style: solid;
+    border-color: aliceblue;
+    padding-left: .3em;
+    padding-right: .3em;
+}
+.webpad-search-bar::placeholder
+{
+    color: inherit;
+    filter: brightness(70%);
+}
+
+.webpad-extra-information
+{
+    border-radius: .3em;
+    box-sizing : border-box;
+    border-color: aliceblue;
+    border-style: solid;
+    width: 100%;
+    padding-left: .3em;
+    padding-right: .3em;
+}
+
+.webpad-extra-information-container
+{
+    width: calc();
+
+}
+
+.webpad-extra-information-plus-icon
+{
+   vertical-align: middle;
+}
+
+.webpad-extra-information::placeholder
+{
+    color: inherit;
+    filter: brightness(70%);
+}
+
+.webpad-main-information
+{
+    border-radius: .3em;
+    box-sizing : border-box;
+    border-color: aliceblue;
+    border-style: solid;
+    min-width: 4em;
+    width: 100%;
+}
+.webpad-main-information::placeholder
+{
+    color: inherit;
+    filter: brightness(70%);
+}
+
+.webpad-inner-information
+{
+    border-radius: .3em;
+    box-sizing : border-box;
+    border-color: aliceblue;
+    border-style: solid;
+    width: 100%;
+}
+
+.webpad-border-in-stack
+{
+    border-radius: .3em;
+    border-width: .5em;
+    box-sizing : border-box;
+    border-color: aliceblue;
+    border-style: dashed;
+    width: 100%;
+}
+
+.webpad-top-of-stack
+{
+    border-radius: .3em;
+    border-width: .5em;
+    box-sizing : border-box;
+    border-color: yellow;
+    border-style: dashed;
+    width: 100%;
+}
+
+.webpad-inner-information::placeholder
+{
+    color: inherit;
+    filter: brightness(70%);
+}
+
+.webpad-brightness-dimmed
+{
+    filter: brightness(70%);
+}
+
+.webpad-contenteditable
+{
+    min-width: 4em;
+}
+
+.webpad-contenteditable[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: inherit;
+    filter: brightness(70%);
+}
+
+.webpad-contenteditable[placeholder]:empty:focus:before {
+    content: "";
+}
+
+.webpad-search-absolute-position
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background:inherit;
+}
+
+.webpad-header-absolute-position
+{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background:inherit;
+    z-index: 10;
+}
+
+.webpad-menu-absolute-position
+{
+    width: 40rem;
+    max-width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #333333;
+    z-index: 2100;
+    overflow-y: auto;
+}
+
+
+.webpad-menu-animate-show-from-left
+{
+    animation:animateshowfromleft 0.4s forwards;
+    
+}
+@keyframes animateshowfromleft
+{
+    from{left:-40rem;opacity:0} to{left:0;opacity:1}
+}
+
+
+.webpad-menu-animate-fade-back
+{
+    animation:animatefadeback 0.4s forwards;
+}
+@keyframes animatefadeback
+{
+    from{left: 0;opacity:1} to{left: -40rem;opacity:0}
+}
+.webpad-menu-logo {
+    width: 5rem;
+    height: 5rem;
+    background: url("../WebPad_logo_512.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+.webpad-color-orange{ 
+    color: #ffa26b;
+}
+
+.webpad-color-blue{ 
+    color: #84bfff;
+}
+
+.weboad-color-pink{ 
+    color: #ff94eb;
+}
+
+.webpad-color-green{ 
+    color: #64e05e;
+}
+
+.webpad-color-yellow{ 
+    color: #f8e755;
+}
+
+.webpad-color-light-pink{ 
+    color: #ffbbdc;
+}
+
+.webpad-color-purple{ 
+    color: #d190ff;
+}
+
+.webpad-color-coral{ 
+    color: #ff8f95;
+}
